@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	background-image: url(../img/banner-head.jpg);
+}
+
+h1, h2, h3, p, a{
+	font-family: helvetica, arial, sans-serif;
+}
+
+.logo{
+	background: url(../img/logo.png)no-repeat center;
+	display: inline;
+	padding: 2rem 1%;
+	float: left;
+}
+
+
+header nav{
+	background-color: #000;
+	display: inline;
+	padding: 0 83% 4rem 0;
+	float: right;
+}
+
+header nav a{
+	padding: 0 0 0 0;
+}
