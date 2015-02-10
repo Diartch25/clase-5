@@ -184,20 +184,28 @@ header nav ul li a:hover{
 
 .about p:last-child{
 	width: 100%;
-	display: table;
-	margin: 0 auto;
 	padding: 4rem 0 0 0;
 	text-align: center;
-	font-family: 'open_sansregular';
 	font-size: 1.1rem;
 	font-weight: bold;
+	font-family: 'open_sansregular', arial;
+	color: #6E7C89;
 	
 }
 
+.about .first{
+	color: #E8330F;
+}
+
+.about .second{
+	color: #000;
+}
+
 .eventprev{
-	padding: 2rem 0 0 0;
+	padding: 2rem 0 9rem 0;
 	width: 76%;
 	margin: 0 auto;
+	overflow: hidden;
 }
 
 .list{
@@ -250,6 +258,39 @@ header nav ul li a:hover{
 
 .list div div:nth-child(2) h3{
 	font-weight: bold;
+}
+
+.coment{
+	margin: 0 auto;
+}
+
+.coment li{
+	background-color: #F3810E;
+	display: inline-block;
+	width: 22%;
+	margin: 0.71rem;
+	padding: 2rem 2rem;
+	float: left;
+}
+
+.coment li p{
+	color: #FFF;
+	;
+}
+
+
+
+.coment li p:nth-child(1){
+	margin: 1rem 0;
+	font-family: times;
+
+}
+
+.coment li p:nth-child(2){
+	float: right;
+	text-align: right;
+	margin: 1rem 0;
+
 }
 
 .sponsor{
