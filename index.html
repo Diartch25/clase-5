@@ -12,19 +12,23 @@
 <link href="css/styles.css" rel="stylesheet" type="text/css" media="screen" />
 </head>
 <body>
-	<wrapper>
+	<div id="wrapper">
 		<header>
-			<a href="#" class="logo">DrupalCamp</a>
+			
 			<nav>
-				<a href="#">Acerca</a>
-				<a href="#">Patrocinadores</a>
-				<a href="#">Registro</a>
+				<ul>
+					<li class="other"><a href="#" class="logo"></a></li>
+					<li><a href="#">Acerca</a></li>
+					<li><a href="#">Patrocinadores</a></li>
+					<li><a href="#">Registro</a></li>
+				</ul>
 			</nav>
 			<div class="principal">
-				<h1>DrupalCamp Costa Rica • Julio 30 - 31 &amp; Agosto 1 / San José, CR •</h1>
+				<h1>DrupalCamp Costa Rica</h1> 
+				<p>• Julio 30 - 31 &amp; Agosto 1 / San José, CR •</p>
 				<p>Desarrollo Web con Esteroides</p>
 				<p>Universidad de Costa Rica</p>
-				<a href="#">Conoce más</a>
+				<p><a href="#">Conoce más</a></p>
 			</div><!--|.principal|-->
 		</header>
 		<content>
@@ -33,34 +37,43 @@
 
 				<h3>DrupalCamp Costa Rica es el evento de Desarrollo Web más grande del país.</h3>
 
-				<p>Este es el 3er Camp que se realiza en el país, donde cientos de personas aprendemos sobre Drupal, tomamos café, compartimos ideas, hacemos networking y al final nos tomamos unas frías. Es la excusa perfecta para hablar sobre cósdigo, diseño y tecnologísas abiertas.</p>
+				<p class="left">Este es el 3er Camp que se realiza en el país, donde cientos de personas aprendemos sobre Drupal, tomamos café, compartimos ideas, hacemos networking y al final nos tomamos unas frías. Es la excusa perfecta para hablar sobre cósdigo, diseño y tecnologísas abiertas.</p>
 
-				<p>El año pasado asistieron máss de 300 personas con un objetivo en mente: aprender Drupal. Éste año esperamos máss personas, traeremos expertos en diferentes campos (nacionales e internacionales), hablaremos de temas que estásn en la punta de la lengua de todos como Symfony, CSS3, HTML5, RWD, herramientas y mejoras de flujo de trabajo, etc.</p>
+				<p class="right">El año pasado asistieron máss de 300 personas con un objetivo en mente: aprender Drupal. Éste año esperamos máss personas, traeremos expertos en diferentes campos (nacionales e internacionales), hablaremos de temas que estásn en la punta de la lengua de todos como <span>Symfony, CSS3, HTML5, RWD, herramientas y mejoras de flujo de trabajo, etc.</span></p>
 
 				<p>Éste evento es organizado por la <span>Comunidad Drupal Costa Rica</span> y el principal objetivo es: <span>compartir<span> y <span>difundir</span> nuestro conocimiento en Drupal.</p>
 			</div><!--|.about|-->
 
 			<div class="eventprev">
 				<h2>Eventos Previos</h2>
-				<ul class="list">
-					<li>
-						<h3>DrupalCamp CR 2013</h3>
-						<p>El año pasado el número de participantes llegó a 350. En promedio habían 3 charlas simultáneas en distintas salas, con temas que cubrían desde como instalar Drupal hasta temas avanzados de theming y performance.</p>
-						<p>El 2013 fue el año que nuestra Comunidad organizo un evento de talla internacional, en el que tuvimos pesos pesados del mundo Drupal como <a href="#">Matt Chaney</a> de Pantheon, <a href="#">Larry Garfield</a>, a.k.a Crell, de Palantir.net, y parte de los equipos de <a href="#">Phase2</a> y <a href="#">Achieve</a>, dos de las empresas más importantes que usan Drupal a nivel mundial.</p>
-					</li>
-					<li>
-						<h3>DrupalCamp CR 2012</h3>
-						<p>El 21 de abril del 2012 se realizó el 1er DrupalCamp Costa Rica. Recibimos alrededor de 250 asistentes, algunos nos visitaron de países como Panamá, Nicaragua, El Salvador, Guatemala, México &amp; Honduras.</p>
+				<div class="list">
+					<div>
+						<div class="imgs"></div>
+						<div>
+							<h3>DrupalCamp CR 2013</h3>
+							<p>El año pasado el número de participantes llegó a 350. En promedio habían 3 charlas simultáneas en distintas salas, con temas que cubrían desde como instalar Drupal hasta temas avanzados de theming y performance.</p>
+							<p>El 2013 fue el año que nuestra Comunidad organizo un evento de talla internacional, en el que tuvimos pesos pesados del mundo Drupal como <a href="#">Matt Chaney</a> de Pantheon, <a href="#">Larry Garfield</a>, a.k.a Crell, de Palantir.net, y parte de los equipos de <a href="#">Phase2</a> y <a href="#">Achieve</a>, dos de las empresas más importantes que usan Drupal a nivel mundial.</p>
+						</div>
+					</div>
+					<div>
+						<div class="imgs"></div>
+						<div>
+							<h3>DrupalCamp CR 2012</h3>
+							<p>El 21 de abril del 2012 se realizó el 1er DrupalCamp Costa Rica. Recibimos alrededor de 250 asistentes, algunos nos visitaron de países como Panamá, Nicaragua, El Salvador, Guatemala, México &amp; Honduras.</p>
 					
-						<p>Para este evento, nuestro principal objetivo fue dar a conocer a más usuarios locales las ventajas de Drupal sobre otros CMS's y fortalecer las bases de nuestra Comunidad.</p>
-						<p>Nuestros expositores principales fueron líderes de la región, como <a href="#">Felix Delattre</a> (Alemania), <a href="#">Jesús Olivas</a> (México) y <a href="#">Karim Boudjema</a> (Belgica).</p>
-					</li>
-					<li>
-						<h3>3er DrupalCamp Centroamericano 2011</h3>
-						<p>Los dís 2, 3 y 4 de Junio del 2011 se llevo a cabo el 3er DrupalCamp Centroamericano aquí en Costa Rica, en la sede de Puntarenas de la Universidad de Costa Rica.</p>
-						<p>Durante el evento de 3 días se realizaron más de 40 actividades que incluyeron conferencias, talleres técnicos y laboratorios sobre temas relacionados con Drupal, que permitieron aumentar el conocimiento de los participantes. Este evento significo el primero en su clase para la Comunidad Drupal Costa Rica.</p>
-					</li>
-				</ul><!--|list|-->
+							<p>Para este evento, nuestro principal objetivo fue dar a conocer a más usuarios locales las ventajas de Drupal sobre otros CMS's y fortalecer las bases de nuestra Comunidad.</p>
+							<p>Nuestros expositores principales fueron líderes de la región, como <a href="#">Felix Delattre</a> (Alemania), <a href="#">Jesús Olivas</a> (México) y <a href="#">Karim Boudjema</a> (Belgica).</p>
+						</div>
+					</div>
+					<div>
+						<div class="imgs"></div>
+						<div>
+							<h3>3er DrupalCamp Centroamericano 2011</h3>
+							<p>Los dís 2, 3 y 4 de Junio del 2011 se llevo a cabo el 3er DrupalCamp Centroamericano aquí en Costa Rica, en la sede de Puntarenas de la Universidad de Costa Rica.</p>
+							<p>Durante el evento de 3 días se realizaron más de 40 actividades que incluyeron conferencias, talleres técnicos y laboratorios sobre temas relacionados con Drupal, que permitieron aumentar el conocimiento de los participantes. Este evento significo el primero en su clase para la Comunidad Drupal Costa Rica.</p>
+						</div>
+					</div>
+				</div><!--|list|-->
 				<ul class="coment">
 					<li>
 						<p>Gracias al equipo de @drupalcr por a un camp excellente @enzolutions @rmonteroo @kabarca y mas #puravida - amazing #drupal event #costarica</p>
@@ -79,20 +92,25 @@
 				</ul><!--|coment|-->
 			</div><!--|.eventprev|-->
 			<div class="sponsor">
-				<h2>Patrocinadores</h2>
-				<h3>Nos encantaría que te unas a nuestros socios y colaboradores. Ayúdanos a hacer del DrupalCamp CR una realidad.</h3>
-				<p>El DrupalCamp Costa Rica 2014 es una gran oportunidad para conocer, y darse a conocer, a cientos de talentosos drupaleros. Ya sea que usted está buscando contratar a desarrolladores, promover su producto, o simplemente devolver un poco a la comunidad, este es el lugar para estar. Eche un vistazo a nuestro <a href="#">folleto de patrocinio</a> y <a href="#">contáctenos</a> para participar.</p>
+				<div class="sectionp">
+					<h2>Patrocinadores</h2>
+					<h3>Nos encantaría que te unas a nuestros socios y colaboradores. Ayúdanos a hacer del DrupalCamp CR una realidad.</h3>
+					<p>El DrupalCamp Costa Rica 2014 es una gran oportunidad para conocer, y darse a conocer, a cientos de talentosos drupaleros. Ya sea que usted está buscando contratar a desarrolladores, promover su producto, o simplemente devolver un poco a la comunidad, este es el lugar para estar. Eche un vistazo a nuestro <a href="#">folleto de patrocinio</a> y <a href="#">contáctenos</a> para participar.</p>
+				</div>
 			</div><!--|.sponsor|-->
 			<div class="funny">
-				<h2>DrupalCamp CR <span>un evento divertido</span></h2>
-				<p>Networking • Amigos • Mucho café • Conocimiento • Compartir • Drink Night • Más</p>
+				<div class="overlay">
+					<h2>DrupalCamp CR</h2>
+					<h2>Un evento divertido</h2>
+					<p>Networking • Amigos • Mucho café • Conocimiento • Compartir • Drink Night • Más</p>
+				</div>
 			</div><!--|.funny|-->
 			<div class="register">
 				<h2>Registro</h2>
 				<h3>Registro abre</h3>
 				<p>1 de Junio, 2014 a las 9am</p>
 				<p>Inversión: <span>por anunciar</span></p>
-				<a href="#">Síganos @drupalcr</a>
+				<p><a href="#">Síganos @drupalcr</a></p>
 			</div><!--|.register|-->
 		</content>
 		<footer>
@@ -103,6 +121,6 @@
 				<a href="#">Siga @drupalcr</a>
 			</nav><!--|footnav|-->
 		</footer>
-	</wrapper>
+	</div><!--|#wrapper|-->
 </body>
 </html>
