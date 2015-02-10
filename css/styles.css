@@ -29,6 +29,10 @@ a{
 	color: #DA6238;
 }
 
+a:hover{
+	color: #67260F;
+}
+
 header{
 	background-image: url(../img/banner-head.jpg);
 	width: 100%;
@@ -337,6 +341,49 @@ header nav ul li a:hover{
 	padding: 0.6rem 3rem;
 }
 
+.register p:nth-child(5) a:hover{
+	border: 2px solid #00BCF2;
+	background-color: #00BCF2;
+	color: #FFF;
+}
+
+footer{
+	background-color: #2B2B2B;
+	padding: 3rem 0 7rem 0;
+}
+
+footer > p{
+	text-align: center;
+	background: url(../img/separator.png)no-repeat center center;
+	padding: 5rem 0;
+}
+
+footer > p a{
+	color: transparent
+}
+
+footer > p a:hover{
+	color: transparent
+}
+
+.footnav{
+	display: table;
+	margin: 0 auto;
+}
+
+.footnav a{
+	border-bottom: 1px solid #FFF;
+	margin: 2rem 1rem;
+	padding: 1rem 0.5rem;
+	color: #FFF;
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+
+.footnav a:hover{
+	border-bottom: 1px solid #636161;
+	color: #636161;
+}
 
 
 
